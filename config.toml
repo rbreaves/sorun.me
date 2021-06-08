@@ -1,4 +1,4 @@
-baseURL = "https://sorun.me"
+baseURL = "https://sorun.me/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Hugo Hermit"
