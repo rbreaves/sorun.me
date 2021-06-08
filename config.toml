@@ -1,4 +1,4 @@
-baseURL = "https://rbreaves.github.io/"
+baseURL = "https://sorun.me/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Desktop Linux for Creators - Sorun.me"
@@ -12,6 +12,7 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
+staticDir = ["static"]
 
 [author]
   name = "Ben Reaves"
