@@ -1,7 +1,7 @@
-baseURL = "https://sorun.me/"
+baseURL = "https://rbreaves.github.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Hugo Hermit"
+title = "Desktop Linux for Creators - Sorun.me"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
