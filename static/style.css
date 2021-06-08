@@ -1,3 +1,7 @@
+#sorunmelogo {
+  width:150%;
+}
+
 #home-subtitle {
   position:relative;
   top:-90px;
@@ -24,4 +28,12 @@
   a {
     margin: 0 .2em;
   }
+}
+
+svg {
+  fill: white;
+}
+
+svg:hover {
+  fill: #ccccff;
 }

@@ -24,8 +24,8 @@ jobs:
       - name: Build
         run: |
           hugo -v --gc --minify
-          [ -f "./CNAME" ] && cp CNAME public/
-          touch public/.nojekyll
+          [ -f "./CNAME" ] && cp CNAME docs/
+          touch docs/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -33,6 +33,6 @@ jobs:
         with:
           #github_token: ${{ secrets.GITHUB_TOKEN }}
           github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          #external_repository: rbreaves/sorun.me
-          #publish_branch: master
-          publish_dir: ./public
+          external_repository: rbreaves/sorun.me
+          publish_branch: master
+          publish_dir: ./docs
