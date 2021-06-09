@@ -1,5 +1,28 @@
-#logo {
+.card {
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+.logo {
   width: 93%;
+}
+.logo:hover {
+  fill: #ccccff;
+}
+
+.change-opacity-svg:hover{
+    -webkit-filter:  grayscale(100%) brightness(51%);
 }
 
 #home-title {
@@ -60,10 +83,22 @@
   }
 }
 
-svg {
+/*svg {
   fill: white;
 }
 
 svg:hover {
+  fill: #ccccff;
+}*/
+
+svg:hover {
+  fill: white;
+}
+
+.logo {
+  fill: white;
+}
+
+.logo:hover {
   fill: #ccccff;
 }
