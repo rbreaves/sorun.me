@@ -22,7 +22,7 @@
 			Sorun.me
 		</div>
 		<div id="home-center">
-			<a href="https://github.com/rbreaves/sorun"><div class="card"><img class="img-top" src="/sorunme-space.png" width="300px"/><img src="/sorunme-white.png" width="300px" /></div>
+			<a href="https://sorunme.sourceforge.io"><div class="card"><img class="img-top" src="/sorunme-space.png" width="300px"/><img src="/sorunme-white.png" width="300px" /></div>
 				<!-- <svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 671.9 358.2" style="enable-background:new 0 0 671.9 358.2;" xml:space="preserve">
 					<title>sorunme-white</title>
 					<g id="Layer_1_copy_4">
@@ -59,9 +59,9 @@
 
 			{{- with .Site.Params.social }}
 			<div id="home-social" style="word-wrap: break-word;">
-				{{ partialCached "social-icons.html" . }}
-				<p style="font-size:0.5em;word-wrap: break-word;">Supports: Ubuntu Budgie 20.04, Pop!_OS 20.04/21.04.</p>
-				<p style="font-size:0.5em;word-wrap: break-word;">Warning: Before running the script checkout the source!</p>
+				{{ partialCached "social-icons.html" . }}<a href="https://sorunme.sourceforge.io"><img class="img-top" src="/cd-128.png" width="38px"/></a>
+				<p style="font-size:0.5em;word-wrap: break-word;"><a href="https://sorunme.sourceforge.io" style="color: #00ccff; text-decoration: underline;"><br/>Download Sorun.me<br/>as an ISO or VM</a></p>
+				<p style="font-size:0.5em;word-wrap: break-word;">Supports: Ubuntu Budgie 20.04/21.xx</p>
 				<div class="copyable" style="">
 					<figure class="highlight" style="width:500px">
 						<pre><code class="language-bash" data-lang="bash">/bin/bash <( curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/rbreaves/sorun/HEAD/linux.sh )</code></pre>

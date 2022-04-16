@@ -169,3 +169,69 @@ svg:hover {
 .logo:hover {
   fill: #ccccff;
 }
+
+@media screen and (max-width: 1310px) {
+    #home-center {
+    width: 110%;
+  }
+
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: none;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table td {
+    border-bottom: none;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    // background-color: #888;
+  }
+
+  table td.rightcell {
+    text-align: center;
+  }
+
+  table td.leftcell {
+    text-align: center;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  .color {
+    font-size: 1.5em;
+  }
+}
